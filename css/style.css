@@ -11,24 +11,25 @@
   height: 350px;
   background: #717171;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-top: 16px;
 }
 
 .slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   position: relative;
-  display: block;
   height: 80%;
-  width: 2100px;
+  width: 2200px;
+  background: #08c;
 }
 
 .slide {
+  display: inline-block;
   width: 700px;
   height: 100%;
-  display: block;
-  background: green;
   position: relative;
-  float: left;
 }
 
 .slider-footer {
